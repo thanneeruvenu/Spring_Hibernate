@@ -1,0 +1,72 @@
+2017-10-03 00:08:11 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-10-03 00:08:11 INFO  XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Tue Oct 03 00:08:11 IST 2017]; root of context hierarchy
+2017-10-03 00:08:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+2017-10-03 00:08:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-10-03 00:08:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+2017-10-03 00:08:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+2017-10-03 00:08:12 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [development.properties]
+2017-10-03 00:08:12 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-03 00:08:13 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.h2.Driver
+2017-10-03 00:08:13 INFO  LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+2017-10-03 00:08:13 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-10-03 00:08:13 INFO  Version:41 - HHH000412: Hibernate Core {4.0.1.Final}
+2017-10-03 00:08:13 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-10-03 00:08:13 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-10-03 00:08:13 INFO  Ejb3Configuration:526 - HHH000204: Processing PersistenceUnitInfo [
+	name: blPU
+	...]
+2017-10-03 00:08:13 INFO  ConnectionProviderInitiator:186 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-10-03 00:08:13 INFO  Dialect:121 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-03 00:08:13 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-10-03 00:08:14 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-03 00:08:14 INFO  Version:24 - Hibernate Validator 4.2.0.Final
+2017-10-03 00:08:14 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-10-03 00:08:14 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-10-03 00:08:14 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2017-10-03 00:08:14 INFO  TableMetadata:65 - HHH000261: Table found: TEST.PUBLIC.USER
+2017-10-03 00:08:14 INFO  TableMetadata:66 - HHH000037: Columns: [name, id, age]
+2017-10-03 00:08:14 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2017-10-03 00:08:14 INFO  TableMetadata:69 - HHH000126: Indexes: [primary_key_2]
+2017-10-03 00:08:14 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2017-10-03 00:08:14 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+2017-10-03 00:08:14 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+2017-10-03 00:08:14 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+2017-10-03 00:08:14 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+2017-10-03 00:08:14 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+2017-10-03 00:08:15 INFO  RequestMappingHandlerAdapter:518 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 00:08:11 IST 2017]; root of context hierarchy
+2017-10-03 00:08:15 INFO  RequestMappingHandlerAdapter:518 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 00:08:11 IST 2017]; root of context hierarchy
+2017-10-03 00:08:15 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3385 ms
+2017-10-03 00:08:15 INFO  DispatcherServlet:484 - FrameworkServlet 'spring': initialization started
+2017-10-03 00:08:15 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 00:08:15 IST 2017]; parent: Root WebApplicationContext
+2017-10-03 00:08:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+2017-10-03 00:08:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-10-03 00:08:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+2017-10-03 00:08:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+2017-10-03 00:08:15 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [development.properties]
+2017-10-03 00:08:15 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-03 00:08:15 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.h2.Driver
+2017-10-03 00:08:15 INFO  LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+2017-10-03 00:08:15 INFO  Ejb3Configuration:526 - HHH000204: Processing PersistenceUnitInfo [
+	name: blPU
+	...]
+2017-10-03 00:08:15 INFO  ConnectionProviderInitiator:186 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-10-03 00:08:15 INFO  Dialect:121 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-03 00:08:15 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-10-03 00:08:15 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-03 00:08:15 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-10-03 00:08:15 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-10-03 00:08:15 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2017-10-03 00:08:15 INFO  TableMetadata:65 - HHH000261: Table found: TEST.PUBLIC.USER
+2017-10-03 00:08:15 INFO  TableMetadata:66 - HHH000037: Columns: [name, id, age]
+2017-10-03 00:08:15 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2017-10-03 00:08:15 INFO  TableMetadata:69 - HHH000126: Indexes: [primary_key_2]
+2017-10-03 00:08:15 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2017-10-03 00:08:15 WARN  EntityManagerFactoryRegistry:78 - HHH000436: Entity manager factory name (blPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-10-03 00:08:15 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+2017-10-03 00:08:15 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+2017-10-03 00:08:15 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+2017-10-03 00:08:15 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+2017-10-03 00:08:15 INFO  RequestMappingHandlerMapping:220 - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+2017-10-03 00:08:15 INFO  RequestMappingHandlerAdapter:518 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 00:08:15 IST 2017]; parent: Root WebApplicationContext
+2017-10-03 00:08:15 INFO  RequestMappingHandlerAdapter:518 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 00:08:15 IST 2017]; parent: Root WebApplicationContext
+2017-10-03 00:08:15 INFO  DispatcherServlet:503 - FrameworkServlet 'spring': initialization completed in 296 ms
