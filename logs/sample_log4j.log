@@ -1,0 +1,71 @@
+2017-10-03 01:44:26 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-10-03 01:44:26 INFO  Version:41 - HHH000412: Hibernate Core {4.0.1.Final}
+2017-10-03 01:44:26 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-10-03 01:44:26 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-10-03 01:44:26 INFO  Ejb3Configuration:526 - HHH000204: Processing PersistenceUnitInfo [
+	name: blPU
+	...]
+2017-10-03 01:44:26 INFO  ConnectionProviderInitiator:186 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-10-03 01:44:26 INFO  Dialect:121 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-03 01:44:26 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-10-03 01:44:26 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-03 01:44:27 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-10-03 01:44:27 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-10-03 01:44:27 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2017-10-03 01:44:27 INFO  TableMetadata:65 - HHH000261: Table found: TEST.PUBLIC.USER
+2017-10-03 01:44:27 INFO  TableMetadata:66 - HHH000037: Columns: [name, id, age]
+2017-10-03 01:44:27 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2017-10-03 01:44:27 INFO  TableMetadata:69 - HHH000126: Indexes: [primary_key_2]
+2017-10-03 01:44:27 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2017-10-03 01:44:28 INFO  Ejb3Configuration:526 - HHH000204: Processing PersistenceUnitInfo [
+	name: blPU
+	...]
+2017-10-03 01:44:28 INFO  ConnectionProviderInitiator:186 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-10-03 01:44:28 INFO  Dialect:121 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-03 01:44:28 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-10-03 01:44:28 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-03 01:44:28 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-10-03 01:44:28 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-10-03 01:44:28 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2017-10-03 01:44:28 INFO  TableMetadata:65 - HHH000261: Table found: TEST.PUBLIC.USER
+2017-10-03 01:44:28 INFO  TableMetadata:66 - HHH000037: Columns: [name, id, age]
+2017-10-03 01:44:28 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2017-10-03 01:44:28 INFO  TableMetadata:69 - HHH000126: Indexes: [primary_key_2]
+2017-10-03 01:44:28 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2017-10-03 01:44:28 WARN  EntityManagerFactoryRegistry:78 - HHH000436: Entity manager factory name (blPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-10-03 01:46:34 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-10-03 01:46:34 INFO  Version:41 - HHH000412: Hibernate Core {4.0.1.Final}
+2017-10-03 01:46:34 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-10-03 01:46:34 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-10-03 01:46:34 INFO  Ejb3Configuration:526 - HHH000204: Processing PersistenceUnitInfo [
+	name: blPU
+	...]
+2017-10-03 01:46:34 INFO  ConnectionProviderInitiator:186 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-10-03 01:46:35 INFO  Dialect:121 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-03 01:46:35 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-10-03 01:46:35 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-03 01:46:35 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-10-03 01:46:35 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-10-03 01:46:35 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2017-10-03 01:46:35 INFO  TableMetadata:65 - HHH000261: Table found: TEST.PUBLIC.USER
+2017-10-03 01:46:35 INFO  TableMetadata:66 - HHH000037: Columns: [name, id, age]
+2017-10-03 01:46:35 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2017-10-03 01:46:35 INFO  TableMetadata:69 - HHH000126: Indexes: [primary_key_2]
+2017-10-03 01:46:35 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2017-10-03 01:46:36 INFO  Ejb3Configuration:526 - HHH000204: Processing PersistenceUnitInfo [
+	name: blPU
+	...]
+2017-10-03 01:46:36 INFO  ConnectionProviderInitiator:186 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-10-03 01:46:36 INFO  Dialect:121 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-03 01:46:36 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-10-03 01:46:36 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-03 01:46:36 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-10-03 01:46:36 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-10-03 01:46:36 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2017-10-03 01:46:36 INFO  TableMetadata:65 - HHH000261: Table found: TEST.PUBLIC.USER
+2017-10-03 01:46:36 INFO  TableMetadata:66 - HHH000037: Columns: [name, id, age]
+2017-10-03 01:46:36 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2017-10-03 01:46:36 INFO  TableMetadata:69 - HHH000126: Indexes: [primary_key_2]
+2017-10-03 01:46:36 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2017-10-03 01:46:36 WARN  EntityManagerFactoryRegistry:78 - HHH000436: Entity manager factory name (blPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-10-03 01:47:39 INFO  UserController:27 - User controller ==> getMessage() method

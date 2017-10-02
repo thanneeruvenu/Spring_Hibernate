@@ -1,0 +1,160 @@
+01:40:57.656 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+01:40:57.980 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Oct 03 01:40:57 IST 2017]; root of context hierarchy
+01:40:58.026 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:40:58.219 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:40:58.292 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:40:58.320 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:40:58.817 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:40:58.823 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:40:58.942 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:40:58.997 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:40:59.952 [localhost-startStop-1] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+01:41:00.630 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:41:00.631 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:41:00.632 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:41:00.632 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:41:00.632 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:41:00.632 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:41:00.783 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:40:57 IST 2017]; root of context hierarchy
+01:41:00.861 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:40:57 IST 2017]; root of context hierarchy
+01:41:00.928 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3270 ms
+01:41:00.942 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization started
+01:41:00.944 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:41:00 IST 2017]; parent: Root WebApplicationContext
+01:41:00.945 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:41:00.961 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:41:00.976 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:41:00.993 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:41:01.063 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:41:01.070 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:41:01.092 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:41:01.100 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:41:01.306 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:41:01.307 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:41:01.307 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:41:01.307 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:41:01.307 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:41:01.308 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:41:01.330 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:41:00 IST 2017]; parent: Root WebApplicationContext
+01:41:01.341 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:41:00 IST 2017]; parent: Root WebApplicationContext
+01:41:01.389 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization completed in 447 ms
+01:41:12.088 [http-bio-9090-exec-1] INFO  c.s.controller.HelloWorldController - HelloWorld controller == > getMessage()
+01:42:42.155 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+01:42:42.499 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Oct 03 01:42:42 IST 2017]; root of context hierarchy
+01:42:42.541 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:42:42.693 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:42:42.718 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:42:42.775 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:42:43.152 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:42:43.172 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:42:43.326 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:42:43.392 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:42:44.353 [localhost-startStop-1] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+01:42:44.934 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:42:44.936 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:42:44.936 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:42:44.936 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:42:44.937 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:42:44.937 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:42:45.076 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:42:42 IST 2017]; root of context hierarchy
+01:42:45.115 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:42:42 IST 2017]; root of context hierarchy
+01:42:45.208 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3050 ms
+01:42:45.264 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization started
+01:42:45.266 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:42:45 IST 2017]; parent: Root WebApplicationContext
+01:42:45.267 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:42:45.317 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:42:45.366 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:42:45.375 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:42:45.441 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:42:45.448 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:42:45.456 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:42:45.461 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:42:45.530 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:42:45.532 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:42:45.533 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:42:45.533 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:42:45.533 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:42:45.533 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:42:45.555 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:42:45 IST 2017]; parent: Root WebApplicationContext
+01:42:45.583 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:42:45 IST 2017]; parent: Root WebApplicationContext
+01:42:45.630 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization completed in 366 ms
+01:42:55.639 [http-bio-9090-exec-1] INFO  c.s.controller.HelloWorldController - HelloWorld controller == > getMessage()
+01:44:25.113 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+01:44:25.453 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Oct 03 01:44:25 IST 2017]; root of context hierarchy
+01:44:25.494 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:44:25.637 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:44:25.661 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:44:25.699 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:44:25.987 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:44:25.991 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:44:26.082 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:44:26.130 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:44:27.014 [localhost-startStop-1] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+01:44:27.772 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:44:27.773 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:44:27.773 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:44:27.773 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:44:27.773 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:44:27.773 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:44:27.970 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:44:25 IST 2017]; root of context hierarchy
+01:44:28.037 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:44:25 IST 2017]; root of context hierarchy
+01:44:28.138 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3022 ms
+01:44:28.182 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization started
+01:44:28.187 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:44:28 IST 2017]; parent: Root WebApplicationContext
+01:44:28.188 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:44:28.261 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:44:28.276 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:44:28.312 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:44:28.394 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:44:28.398 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:44:28.405 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:44:28.410 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:44:28.585 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:44:28.588 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:44:28.589 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:44:28.590 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:44:28.590 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:44:28.591 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:44:28.614 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:44:28 IST 2017]; parent: Root WebApplicationContext
+01:44:28.624 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:44:28 IST 2017]; parent: Root WebApplicationContext
+01:44:28.696 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization completed in 513 ms
+01:45:02.935 [http-bio-9090-exec-1] INFO  c.s.controller.HelloWorldController - HelloWorld controller == > getMessage()
+01:46:32.988 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+01:46:33.269 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Oct 03 01:46:33 IST 2017]; root of context hierarchy
+01:46:33.306 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:46:33.403 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:46:33.425 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:46:33.457 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:46:33.838 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:46:33.844 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:46:33.983 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:46:34.068 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:46:35.176 [localhost-startStop-1] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+01:46:35.795 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:46:35.797 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:46:35.798 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:46:35.798 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:46:35.798 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:46:35.799 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:46:35.958 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:46:33 IST 2017]; root of context hierarchy
+01:46:35.998 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Oct 03 01:46:33 IST 2017]; root of context hierarchy
+01:46:36.062 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3072 ms
+01:46:36.081 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization started
+01:46:36.083 [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:46:36 IST 2017]; parent: Root WebApplicationContext
+01:46:36.084 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+01:46:36.103 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01:46:36.119 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/DataSource.xml]
+01:46:36.128 [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-datasource.xml]
+01:46:36.223 [localhost-startStop-1] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [development.properties]
+01:46:36.225 [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:46:36.232 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+01:46:36.239 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'blPU'
+01:46:36.348 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.HelloWorldController.getMessage()
+01:46:36.349 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.update(java.lang.Integer)
+01:46:36.349 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.getMessage()
+01:46:36.349 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.list()
+01:46:36.349 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.save()
+01:46:36.349 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/show/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.stc.controller.UserController.show(java.lang.Integer)
+01:46:36.394 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:46:36 IST 2017]; parent: Root WebApplicationContext
+01:46:36.404 [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Tue Oct 03 01:46:36 IST 2017]; parent: Root WebApplicationContext
+01:46:36.453 [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization completed in 372 ms
+01:47:05.814 [http-bio-9090-exec-1] INFO  c.s.controller.HelloWorldController - HelloWorld controller == > getMessage()
