@@ -2,6 +2,5 @@
 .classpath
 .settings/
 .project
-/log/
 *.log
 /logs/
